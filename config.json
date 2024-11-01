@@ -105,7 +105,7 @@
                 "wolong": "卧龙"
             },
             "blockTypeIds": [
-                49
+                1,2,3,4,49
             ],
             "blockAdsRule": [],
             "desc": "资源较全"
