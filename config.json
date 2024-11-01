@@ -107,7 +107,11 @@
             "blockTypeIds": [
                 1,2,3,4,49
             ],
-            "blockAdsRule": [],
+            "blockAdsRule": [
+                "#EXT-X-DISCONTINUITY\\n#EXTINF:2,[\\s\\S]*?#EXTINF:0\\.28,[\\r\\n]+.*",
+                "#EXT-X-DISCONTINUITY\\n#EXTINF:3\\.92,[\\s\\S]*?#EXTINF:0\\.8,[\\r\\n]+.*",
+                "#EXT-X-DISCONTINUITY\\n#EXTINF:2,[\\s\\S]*?#EXTINF:0\\.84,[\\r\\n]+.*"
+            ],
             "desc": "资源较全"
         },
         {
