@@ -1,5 +1,22 @@
 {
     "privateKey": "404",
+    "tvSources": [
+        {
+            "name": "IPTV 1 [IPV6]",
+            "m3uUrl": "https://ghp.ci/https://raw.githubusercontent.com/vicjl/myIPTV/refs/heads/main/IPTV.m3u",
+            "block": false
+        },
+        {
+            "name": "IPTV 2 [IPV4]",
+            "m3uUrl": "https://live.zhoujie218.top/tv/iptv4.m3u",
+            "block": false
+        },
+        {
+            "name": "广播电台",
+            "m3uUrl": "https://live.fanmingming.com/radio/m3u/index.m3u",
+            "block": false
+        }
+    ],
     "sources": [
         {
             "name": "7NA7",
@@ -10,10 +27,7 @@
                 "hw8": "华为吧"
             },
             "blockTypeIds": [],
-            "blockAdsRule": [
-                "#EXTINF:5\\.700000[\\s\\S]*?#EXTINF:3\\.633333,[\\r\\n]+.*",
-                "#EXTINF.*\\n\\/video.*(?:\\n#EXTINF.*\\n\\/video.*)*\\n#EXTINF.*\\n\\/video.*"
-            ],
+            "blockAdsRule": [],
             "desc": "绿色资源 合集:量子+暴风+华为吧"
         },
         {
@@ -27,9 +41,7 @@
                 42,
                 43
             ],
-            "blockAdsRule": [
-                "#EXTINF:5\\.700000[\\s\\S]*?#EXTINF:3.633333,[\\r\\n]+.*"
-            ],
+            "blockAdsRule": [],
             "desc": "资源较全"
         },
         {
@@ -54,9 +66,7 @@
                 29,
                 73
             ],
-            "blockAdsRule": [
-                "#EXTINF.*\\n\\/video.*(?:\\n#EXTINF.*\\n\\/video.*)*\\n#EXTINF.*\\n\\/video.*"
-            ],
+            "blockAdsRule": [],
             "desc": "资源较全"
         },
         {
@@ -71,9 +81,7 @@
                 43,
                 20
             ],
-            "blockAdsRule": [
-                "#EXT-X-DISCONTINUITY\\n[#EXT-X-KEY]*.*\\n#EXTINF:3\\.333,[\\s\\S]*?#EXTINF:0\\.467,\\n.*"
-            ],
+            "blockAdsRule": [],
             "desc": "有些独特的资源"
         },
         {
@@ -105,13 +113,9 @@
                 "wolong": "卧龙"
             },
             "blockTypeIds": [
-                1,2,3,4,49
+                49
             ],
-            "blockAdsRule": [
-                "#EXT-X-DISCONTINUITY\\n#EXTINF:2,[\\s\\S]*?#EXTINF:0\\.28,[\\r\\n]+.*",
-                "#EXT-X-DISCONTINUITY\\n#EXTINF:3\\.92,[\\s\\S]*?#EXTINF:0\\.8,[\\r\\n]+.*",
-                "#EXT-X-DISCONTINUITY\\n#EXTINF:2,[\\s\\S]*?#EXTINF:0\\.84,[\\r\\n]+.*"
-            ],
+            "blockAdsRule": [],
             "desc": "资源较全"
         },
         {
@@ -123,9 +127,7 @@
             "blockTypeIds": [
                 19
             ],
-            "blockAdsRule": [
-                "#EXTINF:6\\.600000[\\s\\S]*?#EXTINF:5\\.600000,[\\r\\n]+.*"
-            ],
+            "blockAdsRule": [],
             "desc": ""
         },
         {
