@@ -19,18 +19,6 @@
     ],
     "sources": [
         {
-            "name": "7NA7",
-            "url": "https://vod.7na7.com/kapi.php/provide/vod/",
-            "playerName": {
-                "bfzym3u8": "量子",
-                "lzm3u8": "暴风",
-                "hw8": "华为吧"
-            },
-            "blockTypeIds": [],
-            "blockAdsRule": [],
-            "desc": "绿色资源 合集:量子+暴风+华为吧"
-        },
-        {
             "name": "量子资源",
             "url": "https://cj.lziapi.com/api.php/provide/vod/",
             "playerName": {
