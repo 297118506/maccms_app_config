@@ -76,8 +76,10 @@
             "playerName": {
                 "heimuer": "黑木耳"
             },
-            "blockTypeIds": [],
-            "blockAdsRule": [],
+            "blockTypeIds": [34],
+            "blockAdsRule": [
+                "#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY",
+            ],
             "desc": ""
         },
         {
