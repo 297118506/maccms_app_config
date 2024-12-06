@@ -25,6 +25,7 @@
                 "lzm3u8": "量子"
             },
             "blockTypeIds": [
+                34,
                 41,
                 42,
                 43
@@ -56,21 +57,6 @@
             ],
             "blockAdsRule": [],
             "desc": "资源较全"
-        },
-        {
-            "name": "69mzf",
-            "url": "https://yy.69mzf.com/api.php/provide/vod/",
-            "playerName": {
-                "xlm3u8": "69mzf"
-            },
-            "blockTypeIds": [
-                18,
-                42,
-                43,
-                20
-            ],
-            "blockAdsRule": [],
-            "desc": "有些独特的资源"
         },
         {
             "name": "华为吧",
@@ -116,7 +102,7 @@
                 19
             ],
             "blockAdsRule": [],
-            "desc": ""
+            "desc": "该源不支持搜索"
         },
         {
             "name": "Ikun资源",
