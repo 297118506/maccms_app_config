@@ -25,7 +25,7 @@
     },
     {
       "name": "大地资源",
-      "url": "https://cms2025.ct.ws/api.php/provide/vod/",
+      "url": "https://dadiapi.com/api.php/provide/vod/from/dadim3u8/",
       "playerName": {
         "dadim3u8": "大地"
       },
