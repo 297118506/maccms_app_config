@@ -24,6 +24,17 @@
       "desc": "资源较全"
     },
     {
+      "name": "玉兔资源",
+      "url": "https://apiyutu.com/api.php/provide/vod/from/ytm3u8",
+      "playerName": {
+        "ytm3u8": "玉兔"
+      },
+      "blockTypeIds": [],
+      "blockTypeName": [],
+      "blockAdsRule": [],
+      "desc": "x资源"
+    },
+    {
       "name": "大地资源",
       "url": "https://dadiapi.com/api.php/provide/vod/from/dadim3u8/",
       "playerName": {
