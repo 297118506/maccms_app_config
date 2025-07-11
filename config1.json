@@ -24,6 +24,17 @@
       "desc": "资源较全"
     },
     {
+      "name": "大地资源",
+      "url": "https://cms2025.ct.ws/api.php/provide/vod/",
+      "playerName": {
+        "dadim3u8": "大地"
+      },
+      "blockTypeIds": [],
+      "blockTypeName": [],
+      "blockAdsRule": [],
+      "desc": "x资源"
+    },
+    {
       "name": "暴风资源",
       "url": "https://bfzyapi.com/api.php/provide/vod/",
       "playerName": {
